@@ -1,0 +1,116 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ececec;
+  padding: 0.5rem 7rem;
+  width: 100%;
+  z-index: 9;
+  box-shadow: 2px 1px 5px 0px;
+}
+
+.logo a {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.menuIcon {
+  display: none;
+  cursor: pointer;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.navLinks a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+  }
+  .menuIcon {
+    display: block;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navLinksOpen {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    padding: 1rem 0;
+    width: 30%;
+    margin-top: 5rem;
+    opacity: 0.95;
+  }
+  .navLinks li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 25px;
+  }
+  .navLinks a {
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ececec;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 2px 1px 5px 0px;
+  }
+  .navLinksOpen {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    opacity: 0.95;
+    width: 50%;
+    margin-top: 3.5rem;
+  }
+  .navLinks a {
+    padding: 0.5rem;
+    align-items: center;
+  }
+}
+
+.menuIconOpen {
+  transform: rotate(90deg);
+}
