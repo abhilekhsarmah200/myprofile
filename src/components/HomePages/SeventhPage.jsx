@@ -20,12 +20,15 @@ export default function SeventhPage() {
       <div className='lg:w-[90%] w-[95%] md:py-[4rem] py-[2rem] mx-auto lg:px-[7rem] px-[2rem] border mt-5'>
         <div className='flex flex-col gap-4'>
           {Projects.map((item, index) => (
-            <div>
+            <div key={index}>
               <div className='font-bold md:text-xl text-[1rem] mb-2'>
                 {item?.title}-
               </div>
               {item?.descriptions?.map((item) => (
-                <ul className='pl-[3rem] md:text-[1rem] text-[0.8rem] list-disc'>
+                <ul
+                  key={index}
+                  className='pl-[3rem] md:text-[1rem] text-[0.8rem] list-disc'
+                >
                   <li>{item}</li>
                 </ul>
               ))}

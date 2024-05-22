@@ -21,7 +21,10 @@ export default function SixthPage() {
       <div className='lg:w-[90%] w-[95%] md:py-[4rem] py-[2rem] mx-auto lg:px-[7rem] px-[2rem] border mt-5'>
         <div className='grid grid-cols-3'>
           {Languages.map((item, index) => (
-            <div className='flex gap-2 md:text-[1rem] text-[0.8rem] items-center py-2'>
+            <div
+              key={index}
+              className='flex gap-2 md:text-[1rem] text-[0.8rem] items-center py-2'
+            >
               <RadioButtonChecked
                 type='radio'
                 sx={{
