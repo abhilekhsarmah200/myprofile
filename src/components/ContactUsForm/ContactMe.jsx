@@ -140,7 +140,7 @@ export const ContactMe = () => {
           <div className='md:text-2xl text-xl font-bold'>Hi Abhilekh,</div>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-4 w-full md:text-[1rem] text-[0.8rem]'>
             <div className='w-full flex md:flex-row flex-col gap-2 md:items-center items-start'>
-              <div className='w-[10%]'>I'm</div>
+              <div className='w-[10%]'>I am</div>
               <TextField
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -171,7 +171,7 @@ export const ContactMe = () => {
               I am contacting you because * :{' '}
             </div>
             <div className='text-gray-400 md:text-[0.8rem] text-[0.6rem]'>
-              Tell me why you're reaching out:
+              Tell me why you are reaching out:
             </div>
             {radioText.map((item, index) => (
               <div
