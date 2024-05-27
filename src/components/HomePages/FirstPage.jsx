@@ -9,8 +9,8 @@ export default function FirstPage() {
       <div className='relative w-full'>
         <img
           src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716305107/Abhilekhz/mdzickovdoy7j2fkti5p.png'
-          alt=''
-          srcset=''
+          alt='software development'
+          title='Abhilekh Sarmah Developer'
           className='w-full md:h-[27rem] sm:h-[18rem] h-[15rem]'
         />
         <div className='absolute md:bottom-[-10rem] sm:bottom-[-13rem] bottom-[-11rem] left-0 px-[1rem] sm:px-[2rem] container1'>
