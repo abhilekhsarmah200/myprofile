@@ -37,6 +37,8 @@ const Navbar = () => {
           <img
             src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716285084/Abhilekhz/erudbha5ns1nsjyp7ctq.png'
             className='sm:w-20 sm:h-20 w-12 h-12'
+            title='Abhilekh Sarmah'
+            alt='abhilekhsarmah a software developer'
           />
         </Link>
       </div>
