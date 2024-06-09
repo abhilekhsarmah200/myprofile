@@ -59,22 +59,42 @@ export default function ThirdPage() {
                 <div className='mt-2'>
                   <ul className='list-disc md:pl-[4rem] pl-[1rem]'>
                     <li>
-                      Planned website development, converting mockups into
-                      usable web presence with REACT.js, NEXT.js, API and
-                      Node.js coding.
+                      Innovated and integrated responsive design elements for
+                      mobile and desktop interfaces using HTML, CSS, and
+                      JavaScript; enhanced user experience, leading to a 30%
+                      rise in session durations and a 20% boost in customer
+                      retention.
                     </li>
                     <li>
-                      Ran debugging tools to eliminate flaws and glitches prior
-                      to publishing.
+                      Planned and executed website development by converting
+                      design mockups into functional web applications using
+                      React.js and Next.js.
                     </li>
                     <li>
-                      Built and styled new mobile-friendly websites,
-                      transitioning legacy presentations to simultaneous
-                      easy-to-use versions.
+                      Utilized comprehensive debugging techniques to identify
+                      and eliminate application bugs and errors prior to
+                      publishing, ensuring high-quality deliverables.
                     </li>
                     <li>
-                      Coded websites using REACT, CSS, JavaScript and Tailwind
-                      languages.
+                      Implemented functionalities such as, enabling users to
+                      watch videos by clicking on timestamps, allowing the video
+                      to continue playing from the selected time, similar to
+                      YouTube, which improved user engagement and interactivity.
+                    </li>
+                    <li>
+                      Designed, and developed REST APIs using Spring Boot to add
+                      new features and improve existing functionalities,
+                      enhancing the overall performance and capabilities of the
+                      application.
+                    </li>
+                    <li>
+                      Learned and adapted quickly to new technology and software
+                      applications.
+                    </li>
+                    <li>
+                      Mastered new software and methodologies within two weeks;
+                      led to a 25% reduction in project turnaround time and
+                      increased team productivity by 15%
                     </li>
                   </ul>
                 </div>

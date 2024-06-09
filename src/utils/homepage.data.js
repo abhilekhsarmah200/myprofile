@@ -20,12 +20,10 @@ export const Projects = [
     id: 1,
     title: 'Event Management System',
     descriptions: [
-      'There have 4 user Role.',
-      'Users can book any event by searching for their location at any venue.',
-      'After booking user can pay their payment in advance or full.',
-      'Admin Can Check the booking and also verified organisers.',
-      'Organisers’ add their venues in the website and see their booking analytics and accept the application of artisits.',
-      'Artists can join any organisation to provide their services(PhotoGraphy/VideoGraphy)  for the user.',
+      'Organiser’s can add their venues in the website and see the booking analytics and accept the applications of artist.',
+      'Customers can book an event by searching for their desired venue and can make upfront or part payments.',
+      'Artists can join any organisation to provide their services (PhotoGraphy/ VideoGraphy/DJ ) for the customers.',
+      'Admin has the visibility of verifying new organisers and analytics of their bookings.',
     ],
     GithubLink:
       'https://github.com/abhilekhsarmah200/eventManagement/tree/master',
