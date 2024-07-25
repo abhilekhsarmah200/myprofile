@@ -27,7 +27,7 @@ export const Projects = [
     ],
     GithubLink:
       'https://github.com/abhilekhsarmah200/eventManagement/tree/master',
-    websiteLink: '#',
+    websiteLink: 'NA',
   },
   {
     id: 2,
@@ -38,5 +38,20 @@ export const Projects = [
     GithubLink:
       'https://github.com/abhilekhsarmah200/FlavorHaven-hotelbooking-sites',
     websiteLink: 'https://flavorhavengetaways.netlify.app/',
+  },
+  {
+    id: 3,
+    title: 'PhotoGraphy Apps',
+    descriptions: [
+      'Users Can login with email verifying by otp.',
+      'Users Can Book services by its category (eg: portraits, wedding, events, etc.)',
+      'Users Can view their bookings, cancel their bookings, show their images',
+      'Admin Can view all users bookings.',
+      'Admin Can Cancel or Marked Completed',
+      'Admin Can Upload services, clients images, clients album, makeup artists images and recent shoot images.',
+    ],
+    GithubLink: 'NA',
+    websiteLink: 'https://photographystudioapp.netlify.app/',
+    websiteLink2: 'https://adminphotographystudioapp.netlify.app/',
   },
 ];

@@ -32,26 +32,42 @@ export default function SeventhPage() {
                   <li>{item}</li>
                 </ul>
               ))}
-              <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
-                Github:
-                <a
-                  className='underline break-all text-[#3983fa]'
-                  target='_blank'
-                  href={item?.GithubLink}
-                >
-                  {item?.GithubLink}
-                </a>
-              </div>
-              <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
-                Website:
-                <a
-                  className='underline break-all text-[#3983fa]'
-                  href={item?.websiteLink}
-                  target='_blank'
-                >
-                  {item?.websiteLink}
-                </a>
-              </div>
+              {item?.GithubLink !== 'NA' && (
+                <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
+                  Github:
+                  <a
+                    className='underline break-all text-[#3983fa]'
+                    target='_blank'
+                    href={item?.GithubLink === 'NA' ? '#' : item?.GithubLink}
+                  >
+                    {item?.GithubLink}
+                  </a>
+                </div>
+              )}
+              {item?.websiteLink !== 'NA' && (
+                <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
+                  Website:
+                  <a
+                    className='underline break-all text-[#3983fa]'
+                    href={item?.websiteLink === 'NA' ? '#' : item?.websiteLink}
+                    target='_blank'
+                  >
+                    {item?.websiteLink}
+                  </a>
+                </div>
+              )}
+              {item?.websiteLink2 && item?.websiteLink2 !== 'NA' && (
+                <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
+                  Website2:
+                  <a
+                    className='underline break-all text-[#3983fa]'
+                    href={item?.websiteLink2}
+                    target='_blank'
+                  >
+                    {item?.websiteLink2}
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>
