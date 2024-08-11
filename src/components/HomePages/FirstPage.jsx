@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 export default function FirstPage() {
   return (
-    <div className='lg:w-[90%] w-[95%] md:h-[41rem] sm:h-[34rem] h-[28rem] mx-auto pb-2 lg:px-[7rem] px-[2rem] border'>
-      <div className='relative w-full'>
+    <div className='lg:w-[90%] w-[95%] mx-auto pb-2 lg:px-[7rem] px-[2rem] border'>
+      <div className='relative w-full py-[2rem]'>
         <Image
           width={500}
           height={500}
@@ -17,7 +17,7 @@ export default function FirstPage() {
           className='w-full'
         />
 
-        <div className='absolute md:bottom-[-10rem] sm:bottom-[-13rem] bottom-[-11rem] left-0 px-[1rem] sm:px-[2rem] container1'>
+        <div className='sm:-mt-[8rem] -mt-[4rem] left-0 px-[1rem] sm:px-[2rem] container1'>
           <Image
             width={500}
             height={500}
