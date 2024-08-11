@@ -8,17 +8,17 @@ export default function FirstPage() {
     <div className='lg:w-[90%] w-[95%] md:h-[41rem] sm:h-[34rem] h-[28rem] mx-auto pb-2 lg:px-[7rem] px-[2rem] border'>
       <div className='relative w-full'>
         <img
-          src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716305107/Abhilekhz/mdzickovdoy7j2fkti5p.png?quality=auto&size=325w240h&format=webp'
+          src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1723353605/Abhilekhz/xpjynjxlt0dymfm5j2oy.webp?quality=auto&size=325w240h&format=webp'
           alt='software development'
           title='Abhilekh Sarmah Developer'
           className='w-full'
         />
         <div className='absolute md:bottom-[-10rem] sm:bottom-[-13rem] bottom-[-11rem] left-0 px-[1rem] sm:px-[2rem] container1'>
           <img
-            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716280107/Abhilekhz/ugu7aigjsszagmy8kqxe.jpg?quality=auto&format=webp'
+            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1723353605/Abhilekhz/y52mg9u03x4gkmxx6lht.webp?quality=auto&format=webp'
             title='Abhilekh Sarmah'
             alt='Software Developer'
-            className='lg:w-[15rem] lg:h-[15rem] sm:w-[12rem] sm:h-[12rem] w-[8rem] h-[8rem] cursor-pointer rounded-full border-4 border-white shadow-xl'
+            className='lg:w-[15rem] lg:h-[15rem] sm:w-[12rem] sm:h-[12rem] w-[5rem] h-[5rem] cursor-pointer rounded-full border-4 border-white shadow-xl'
           />
           <div className='w-full'>
             <h1 className='pt-4 md:text-3xl sm:text-xl text-[0.9rem]'>
