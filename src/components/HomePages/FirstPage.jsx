@@ -8,14 +8,14 @@ export default function FirstPage() {
     <div className='lg:w-[90%] w-[95%] md:h-[41rem] sm:h-[34rem] h-[28rem] mx-auto pb-2 lg:px-[7rem] px-[2rem] border'>
       <div className='relative w-full'>
         <img
-          src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716305107/Abhilekhz/mdzickovdoy7j2fkti5p.png'
+          src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716305107/Abhilekhz/mdzickovdoy7j2fkti5p.png?quality=auto&size=325w240h&format=webp'
           alt='software development'
           title='Abhilekh Sarmah Developer'
-          className='w-full md:h-[27rem] sm:h-[18rem] h-[15rem]'
+          className='w-full'
         />
         <div className='absolute md:bottom-[-10rem] sm:bottom-[-13rem] bottom-[-11rem] left-0 px-[1rem] sm:px-[2rem] container1'>
           <img
-            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716280107/Abhilekhz/ugu7aigjsszagmy8kqxe.jpg'
+            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716280107/Abhilekhz/ugu7aigjsszagmy8kqxe.jpg?quality=auto&format=webp'
             title='Abhilekh Sarmah'
             alt='Software Developer'
             className='lg:w-[15rem] lg:h-[15rem] sm:w-[12rem] sm:h-[12rem] w-[8rem] h-[8rem] cursor-pointer rounded-full border-4 border-white shadow-xl'
@@ -40,6 +40,7 @@ export default function FirstPage() {
                 variant='contained'
                 color='error'
                 onClick={() => (window.location = '/contactme')}
+                title='Contact Me'
               >
                 CONTACT ME
               </Button>

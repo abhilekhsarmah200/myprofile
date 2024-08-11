@@ -244,6 +244,7 @@ export const ContactMe = () => {
                   className='w-full rounded-xl'
                   variant='contained'
                   disabled={loading}
+                  title='Submit'
                 >
                   {loading ? <CircularProgress size={24} /> : 'Submit'}
                 </Button>

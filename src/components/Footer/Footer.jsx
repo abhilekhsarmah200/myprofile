@@ -19,7 +19,11 @@ const Footer = () => {
       <Container maxWidth='lg'>
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6}>
-            <Typography variant='h6' gutterBottom>
+            <Typography
+              variant='h1'
+              className='md:text-[2rem] text-[1.5rem]'
+              gutterBottom
+            >
               Contact Information
             </Typography>
             <Typography variant='body2'>
@@ -28,7 +32,11 @@ const Footer = () => {
             <Typography variant='body2'>Phone: +91 9706656354</Typography>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Typography variant='h6' gutterBottom>
+            <Typography
+              variant='h1'
+              gutterBottom
+              className='md:text-[2rem] text-[1.5rem]'
+            >
               Follow Me
             </Typography>
             <Box>
@@ -36,6 +44,7 @@ const Footer = () => {
                 href='https://www.facebook.com/profile.php?id=61559866865844'
                 target='_blank'
                 rel='noopener'
+                aria-label='Search us on FaceBook'
               >
                 <Facebook />
               </IconButton>
@@ -43,6 +52,7 @@ const Footer = () => {
                 href='https://x.com/abhilekhz_bussi'
                 target='_blank'
                 rel='noopener'
+                aria-label='Search us on X'
               >
                 <X />
               </IconButton>
@@ -50,6 +60,7 @@ const Footer = () => {
                 href='https://www.linkedin.com/in/abhilekh-sarmah'
                 target='_blank'
                 rel='noopener'
+                aria-label='Search us on Linkdin'
               >
                 <LinkedIn />
               </IconButton>
@@ -57,6 +68,7 @@ const Footer = () => {
                 href='https://github.com/abhilekhsarmah200'
                 target='_blank'
                 rel='noopener'
+                aria-label='Search us on Github'
               >
                 <GitHub />
               </IconButton>

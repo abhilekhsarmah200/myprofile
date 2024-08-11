@@ -17,23 +17,31 @@ const Navbar = () => {
         className={`${`navLinks rounded-xl`} ${isOpen ? `navLinksOpen` : ''}`}
       >
         <li className='hover:bg-white py-1 px-2 transition transform duration-300 ease-in-out md:hover:scale-105 cursor-pointer rounded-lg'>
-          <Link onClick={toggleMenu} href='/'>
+          <Link onClick={toggleMenu} href='/' aria-label='abhilekh sarmah'>
             Home
           </Link>
         </li>
         <li className='hover:bg-white py-1 px-2 transition transform duration-300 ease-in-out md:hover:scale-105 cursor-pointer rounded-lg'>
-          <Link onClick={toggleMenu} href='/contactme'>
+          <Link
+            onClick={toggleMenu}
+            href='/contactme'
+            aria-label='contact with abhilekh sarmah'
+          >
             Contact Me
           </Link>
         </li>
         <li className='hover:bg-white py-1 px-2 transition transform duration-300 ease-in-out md:hover:scale-105 cursor-pointer rounded-lg'>
-          <Link onClick={toggleMenu} href='/resume-me'>
+          <Link
+            onClick={toggleMenu}
+            href='/resume-me'
+            aria-label='resume of abhilekh sarmah'
+          >
             Resume
           </Link>
         </li>
       </ul>
       <div className={`logo`}>
-        <Link href='/'>
+        <Link href='/' aria-label='profile of abhilekh sarmah'>
           <img
             src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716280107/Abhilekhz/ugu7aigjsszagmy8kqxe.jpg'
             className='sm:w-14 sm:h-14 w-10 h-10 rounded-full'

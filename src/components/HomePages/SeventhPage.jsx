@@ -36,7 +36,7 @@ export default function SeventhPage() {
                 <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
                   Github:
                   <a
-                    className='underline break-all text-[#3983fa]'
+                    className='underline break-all text-black'
                     target='_blank'
                     href={item?.GithubLink === 'NA' ? '#' : item?.GithubLink}
                   >
@@ -48,7 +48,7 @@ export default function SeventhPage() {
                 <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
                   Website:
                   <a
-                    className='underline break-all text-[#3983fa]'
+                    className='underline break-all text-black'
                     href={item?.websiteLink === 'NA' ? '#' : item?.websiteLink}
                     target='_blank'
                   >
@@ -60,7 +60,7 @@ export default function SeventhPage() {
                 <div className='mb-2 md:text-[1rem] text-[0.8rem] flex gap-2'>
                   Website2:
                   <a
-                    className='underline break-all text-[#3983fa]'
+                    className='underline break-all text-black'
                     href={item?.websiteLink2}
                     target='_blank'
                   >

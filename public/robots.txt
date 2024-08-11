@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+
+# Example 1: Block only Googlebot
+User-agent: Googlebot
+Disallow: /
+
+# Example 2: Block Googlebot and Adsbot
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /
+
+# Example 3: Block all crawlers except AdsBot (AdsBot crawlers must be named explicitly)
+User-agent: *
+Disallow: /
+
+# Allow all other pages to be crawled
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://abhilekhsarmah.me/sitemap.xml
+Sitemap: https://www.abhilekhsarmah.me/sitemap.xml

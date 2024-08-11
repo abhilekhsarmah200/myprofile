@@ -25,7 +25,7 @@ export default function ThirdPage() {
       <div className='lg:w-[70%] w-[95%] md:py-[4rem] py-[2rem] lg:mx-[4.5rem] mx-auto lg:px-[7rem] px-[2rem] border mt-5'>
         <div className='flex gap-6 items-start'>
           <div>
-            <Button className='bg-[#e3f0fe]'>
+            <Button className='bg-[#e3f0fe]' title='WORK HISTORY'>
               <BusinessCenterIcon
                 style={{
                   fontSize: isSmallDevice ? '1.5rem' : '2rem',
@@ -44,11 +44,11 @@ export default function ThirdPage() {
             <div className='md:text-[1rem] text-[0.8rem]'>
               Banglore, Karnataka
             </div>
-            <div className='md:text-[1rem] text-[0.8rem] text-[#d1d4db]'>
+            <div className='md:text-[1rem] text-[0.8rem] text-black/50'>
               2022 - 2024
             </div>
             <div
-              className='md:text-[1rem] text-[0.8rem] mt-2 underline text-[#3a83fa] cursor-pointer'
+              className='md:text-[1rem] text-[0.8rem] mt-2 underline text-black cursor-pointer'
               onClick={showDescription}
             >
               {showDesc ? '' : 'Show Description'}
@@ -99,7 +99,7 @@ export default function ThirdPage() {
                   </ul>
                 </div>
                 <div
-                  className='md:text-[1rem] text-[0.8rem] mt-2 underline text-[#3a83fa] cursor-pointer'
+                  className='md:text-[1rem] text-[0.8rem] mt-2 underline text-black cursor-pointer'
                   onClick={showDescription}
                 >
                   {showDesc ? 'Hide Description' : ''}

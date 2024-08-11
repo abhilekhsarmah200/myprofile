@@ -19,7 +19,7 @@ export default function FourthPage() {
       <div className='lg:w-[70%] w-[95%] md:py-[4rem] py-[2rem] lg:mx-[4.5rem] mx-auto lg:px-[7rem] px-[2rem] border mt-5'>
         <div className='flex gap-6 items-start'>
           <div>
-            <Button className='bg-[#e3f0fe]'>
+            <Button className='bg-[#e3f0fe]' title='EDUCATION'>
               <SchoolIcon
                 style={{
                   fontSize: isSmallDevice ? '1.5rem' : '2rem',
@@ -38,7 +38,7 @@ export default function FourthPage() {
             <div className='md:text-[1rem] text-[0.8rem]'>
               Sotai, JORHAT (ASSAM)
             </div>
-            <div className='md:text-[1rem] text-[0.8rem] text-[#d1d4db]'>
+            <div className='md:text-[1rem] text-[0.8rem] text-black/50'>
               2018 - 2021
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function FourthPage() {
       <div className='lg:w-[70%] w-[95%] md:py-[4rem] py-[2rem] lg:mx-[4.5rem] mx-auto lg:px-[7rem] px-[2rem] border mt-5'>
         <div className='flex gap-6 items-start'>
           <div>
-            <Button className='bg-[#e3f0fe]'>
+            <Button className='bg-[#e3f0fe]' title='EDUCATION'>
               <SchoolIcon
                 style={{
                   fontSize: isSmallDevice ? '1.5rem' : '2rem',
@@ -62,7 +62,7 @@ export default function FourthPage() {
             </div>
             <div className='md:text-[1rem] text-[0.8rem] mt-2'>AttainU</div>
             <div className='md:text-[1rem] text-[0.8rem]'>Online</div>
-            <div className='md:text-[1rem] text-[0.8rem] text-[#d1d4db]'>
+            <div className='md:text-[1rem] text-[0.8rem] text-black/50'>
               2021 - 2022
             </div>
           </div>
