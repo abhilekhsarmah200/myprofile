@@ -1,5 +1,6 @@
-import React from 'react';
-import MyResume from '../components/MyResume/MyResume';
+import React, { lazy } from 'react';
+const MyResume = lazy(() => import('../components/MyResume/MyResume'));
+
 import Head from 'next/head';
 
 export default function resume() {
