@@ -1,6 +1,5 @@
-import React, { lazy } from 'react';
-const ContactMe = lazy(() => import('../components/ContactUsForm/ContactMe'));
-
+import React from 'react';
+import { ContactMe } from '../components/ContactUsForm/ContactMe';
 import Head from 'next/head';
 
 export default function contactme() {

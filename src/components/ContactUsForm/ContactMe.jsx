@@ -8,7 +8,7 @@ import {
   TextField,
 } from '@mui/material';
 
-export default function ContactMe() {
+export const ContactMe = () => {
   const form = useRef();
 
   const [name, setName] = useState('');
@@ -255,4 +255,4 @@ export default function ContactMe() {
       </div>
     </div>
   );
-}
+};
