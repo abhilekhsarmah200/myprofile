@@ -19,9 +19,9 @@ export default function FirstPage() {
 
         <div className='sm:-mt-[8rem] -mt-[4rem] left-0 px-[1rem] sm:px-[2rem] container1'>
           <Image
-            width={500}
-            height={500}
-            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1723353605/Abhilekhz/y52mg9u03x4gkmxx6lht.webp?quality=auto&format=webp'
+            width={300}
+            height={300}
+            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1723353605/Abhilekhz/y52mg9u03x4gkmxx6lht.webp'
             title='Abhilekh Sarmah'
             alt='Software Developer'
             className='lg:w-[15rem] lg:h-[15rem] sm:w-[12rem] sm:h-[12rem] w-[5rem] h-[5rem] cursor-pointer rounded-full border-4 border-white shadow-xl'
