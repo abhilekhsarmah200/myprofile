@@ -42,8 +42,10 @@ const Navbar = () => {
       </ul>
       <div className={`logo`}>
         <Link href='/' aria-label='profile of abhilekh sarmah'>
-          <img
-            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1716280107/Abhilekhz/ugu7aigjsszagmy8kqxe.jpg'
+          <Image
+            width={500}
+            height={500}
+            src='https://res.cloudinary.com/dwkajs0ca/image/upload/v1723353605/Abhilekhz/y52mg9u03x4gkmxx6lht.webp?quality=auto&format=webp'
             className='sm:w-14 sm:h-14 w-10 h-10 rounded-full'
             title='Abhilekh Sarmah'
             alt='abhilekhsarmah a software developer'
