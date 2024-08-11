@@ -1,15 +1,13 @@
 import { Inter } from 'next/font/google';
-const FirstPage = lazy(() => import('../components/HomePages/FirstPage'));
-const SecondPage = lazy(() => import('../components/HomePages/SecondPage'));
-const ThirdPage = lazy(() => import('../components/HomePages/ThirdPage'));
-const FourthPage = lazy(() => import('../components/HomePages/FourthPage'));
-const FifthPage = lazy(() => import('../components/HomePages/FifthPage'));
-const SixthPage = lazy(() => import('../components/HomePages/SixthPage'));
-const SeventhPage = lazy(() => import('../components/HomePages/SeventhPage'));
-const EighthPage = lazy(() => import('../components/HomePages/EighthPage'));
-
+import FirstPage from '../components/HomePages/FirstPage';
+import SecondPage from '../components/HomePages/SecondPage';
+import ThirdPage from '../components/HomePages/ThirdPage';
+import FourthPage from '../components/HomePages/FourthPage';
+import FifthPage from '../components/HomePages/FifthPage';
+import SixthPage from '../components/HomePages/SixthPage';
+import SeventhPage from '../components/HomePages/SeventhPage';
+import EighthPage from '../components/HomePages/EighthPage';
 import Head from 'next/head';
-import { lazy } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
